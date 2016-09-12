@@ -1,0 +1,71 @@
+html{
+   background-image: url(http://jwst.nasa.gov/ImagesContent/heic0706a.jpg);
+   background-size: cover;
+}
+
+
+h1 {
+   text-align: center;
+   font-size: 80px;
+
+   font-family: "Comic Sans MS", cursive, sans-serif;
+   color: aqua ;
+   margin: 0;
+   padding: 0;
+}
+
+section {
+   max-width: 550px;
+   margin: 0 auto;
+   padding: 1px 12px;
+   background-color: rgba(255, 255, 255, 0.25);;
+
+
+}
+
+section p {
+   font-family: sans-serif;
+   text-align: justify;
+   color: black;
+   font-size: 18;
+}
+
+.nav-links {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+
+.nav-link {
+   display:inline-block;
+   padding: 2px 4px;
+   margin: 16px 6px;
+   border-radius: 5px;
+   background-color: rgba(255, 255, 255, 0.125);;
+}
+
+.nav-link a {
+   text-decoration: none;
+   font-family: sans-serif;;
+   color: black;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+marquee {
+   margin-top: 8px;
+   font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#tv {
+   border: 4px solid darkorange;
+}
+
+#game {
+   border: 4px solid fuchsia;
+}
+
+#x {
+   border: 4px solid lime;
+}
